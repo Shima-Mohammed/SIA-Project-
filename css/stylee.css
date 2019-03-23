@@ -1,0 +1,515 @@
+*
+{
+    box-sizing: border-box ;
+}
+body 
+{
+font-family: 'Barlow Semi Condensed', sans-serif;
+}
+/*************************************navbar************************/
+.navbar 
+{
+    background-color:transparent ;
+     
+    padding: 20px ;
+    border-bottom: none ;
+    
+    border-bottom: 2px solid #f7ba4d ;
+}
+.navbar-default .navbar-nav>li>a
+{
+    color:white ;
+    transition:2s all ease-in-out ;
+    font-weight: bold ;
+}
+.navbar-default .navbar-toggle
+{
+    border:1px solid white ;
+    background-color:transparent ;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+{
+    background-color: #f7ba4d ;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+    background-color:white ;
+}
+
+
+.navbar-default .navbar-toggle
+{
+    background-color: #f7ba4d ;
+}
+.navbar-default .navbar-brand 
+{
+   
+  
+    
+
+    
+}
+
+.navbar-right
+{
+    padding: 20px ;
+    padding-bottom: 0px ;
+    padding-top: 0px ;
+}
+
+
+/*************************home**********************/
+.home 
+{
+    min-height: 690px ; 
+    background-image: url(../images/slide_1.jpg);
+    background-size: cover ;
+  
+}
+.home .opa 
+{
+    min-height: 690px ; 
+    padding-bottom: 50px ;
+    background-color: rgba(0,0,0,0.4);
+}
+.home .opa  h2
+{
+    color:white ;
+    position: relative ; 
+    top:200px ;
+    font-size: 55px ;
+    
+}
+.home .opa  h1
+{
+    color:#f7ba4d ;
+    font-size: 75px ;
+    position: relative ; 
+    top:200px ;
+    font-weight: 600 ;
+}
+.home .opa  h6 
+{
+    position: relative ; 
+    top:200px ;
+    color:white ;
+    font-size: 35px ;
+    word-spacing: 10px ;
+    margin-bottom: 10px ;
+    
+}
+@media only screen and (max-width: 500px) {
+    .home .opa  h1
+    {
+        font-size: 30px ;
+    }
+    .home .opa  h6 
+    {
+        font-size: 20px ;
+    }
+}
+.home .opa  h6::after
+{
+    content: " " ; 
+    position: absolute ; 
+    background-color: #f7ba4d;
+    width:100px ;
+    height: 5px ;
+    top:50px ;
+    left:0px ;
+}
+.home .opa p 
+{
+    margin-top: 20px ;
+    color:white ; 
+    font-weight: 600 ;
+    letter-spacing: 2px ;
+    position: relative ; 
+    top:220px ;
+    margin-bottom: 50px ;
+}
+.home .opa .btn1 
+{
+    background-color:#f7ba4d ; 
+    padding-left: 40px ; 
+    padding-right: 40px ;
+    position: relative ; 
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    top:200px ;
+    border-radius: 30px ;
+    font-size: 18px ;
+    margin-bottom: 20px ;
+    margin-top: 20px ;
+    margin-right: 20px ;
+}
+@media only screen and (max-width: 500px) 
+{
+   .home .opa .btn1
+    {
+        margin-top: 50px ;
+    }
+}
+.home .opa .btn2
+{
+    background-color:#f7ba4d ; 
+    padding-left: 40px ; 
+    padding-right: 40px ;
+    position: relative ; 
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    top:200px ;
+    border-radius: 30px ;
+    font-size: 18px ;
+    
+    
+}
+/****************************about**************************/
+.about 
+{
+    min-height: 650px ;
+    padding-bottom: 50px ;
+    margin-top: 100px ;
+    margin-bottom: 50px ;
+}
+.about .con 
+{
+    background-color: white;
+    margin-bottom: 20px ;
+}
+.about .con img 
+{
+    padding-left: 0px ; 
+    padding-top: 30px ;
+    padding-right: 0px ; 
+    padding-bottom: 30px ;
+    max-width: 100% ;
+    width: 100% ;
+}
+.about .con::before 
+{
+    border-left: 2px solid #363636;
+    border-top: 2px solid #363636;
+    content: "";
+    height: 270px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 270px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.about .con::after
+{
+    content: " " ; 
+    border-bottom: 2px solid #363636;
+    border-left: inherit;
+    border-right: 2px solid #363636;
+    border-top: inherit;
+    position: absolute ; 
+    width: 270px ;
+    bottom: 0;
+    right: 0;
+    top:auto ;
+    left:auto;
+    height: 270px ;
+}
+.about .con-ab
+{
+    margin-top: 20px ;
+}
+.about .con-ab h5 
+{
+    color:#363636 ;
+    font-size: 50px ;
+    margin-bottom: 40px ;
+}
+
+.about .con-ab h5 span 
+{
+    color:#f7ba4d ;
+}
+.about .con-ab h6 
+{
+    color:#363636 ;
+    font-size: 30px ;
+    font-weight: 600 ;
+    margin-bottom: 50px ;
+}
+.about .con-ab p 
+{
+    color:black ; 
+    letter-spacing: 1px ;
+    word-spacing: 2px ;
+    margin-bottom: 40px ;
+}
+.about .con-ab .span 
+{
+    color:#363636 ; 
+    font-weight: 600; 
+    padding-bottom: 5px ;
+    font-size: 30px ;
+    border-bottom: 3px solid #363636 ;
+}
+.about .con-ab ul 
+{
+    margin-top: 20px ;
+}
+.about .con-ab ul li 
+{
+    display: inline-block ;
+    margin-right: 10px ;
+    width: 30px ; 
+    height: 30px ;
+    line-height: 30px ;
+    border-radius: 50% ;
+    background-color: #363636 ;
+    color:white ;
+    transition: 0.5s ease-in-out all ; 
+    
+    
+}
+.about .con-ab li:hover
+{
+    background-color: #f7ba4d ;
+}
+/*********************************************service*****************************/
+.service
+{
+    min-height: 600px ;
+    padding-bottom: 50px ; 
+    margin-bottom: 20px ; 
+    margin-top: 100px ;
+}
+
+.service h5 
+{
+    color:#363636 ; 
+    font-size: 46px ;
+    margin-bottom: 25px ;
+}
+.service h5 span 
+{
+    color:#f7ba4d ;
+}
+.service h6 
+{
+    font-size: 18px ;
+    text-indent: 75px ;
+    opacity: 0.8 ;
+    margin-bottom: 60px ;
+}
+.service .con-imag
+{
+    background-color: white ;
+    margin-bottom: -20px ;
+    
+    
+}
+.service .con-imag img 
+{
+    width: 100% ;
+    max-width: 100% ; 
+    padding-top: 20px ; 
+    padding-bottom: 20px ;
+   margin-left: -10px ;
+   margin-right: -10px ;
+    margin-bottom: 40px;
+    overflow: hidden;
+    padding: 20px;
+    vertical-align: middle ; 
+    
+}
+.service .con-imag::before
+{
+    border-left: 2px solid;
+    border-top: 2px solid;
+    content: "";
+    height: 150px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 150px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+
+.service .con-p
+{
+    margin-bottom: 80px ;
+}
+.service .con-p h4 
+{
+    color:#363636 ; 
+    font-size: 30px ;
+}
+.service .con-p p 
+{
+    word-spacing: 5px ;
+}
+/********************************team**********************/
+.team 
+{
+    min-height: 600px ; 
+    padding-bottom: 50px ; 
+    margin-bottom: 100px ; 
+    
+}
+.team h5 
+{
+    color:#363636 ; 
+    font-size: 46px ;
+    margin-bottom: 25px ;
+}
+.team h5 span 
+{
+    color:#f7ba4d ;
+}
+.team h6 
+{
+    font-size: 18px ;
+    text-indent: 75px ;
+    opacity: 0.8 ;
+    margin-bottom: 60px ;
+}
+.team .con-img
+{
+    background-color: #363636 ;
+    border-radius:50% 0% ;
+}
+.team .con-img img 
+{
+    width: 100% ; 
+    max-width: 100% ; 
+    border-radius: 50% ;
+    padding: 5px ;
+}
+.team .con-info h3 
+{
+    margin-bottom: 20px ;
+    margin-top: -5px ;
+    font-size: 16px ;
+}
+.team .con-info p 
+{
+    word-spacing: 5px ;
+}
+.team .con-info ul 
+{
+    margin-top: 20px ;
+}
+.team .con-info ul li 
+{
+    display: inline-block ;
+    margin-right: 10px ;
+    width: 30px ; 
+    height: 30px ;
+    line-height: 30px ;
+    border-radius: 50% ;
+    background-color: #363636 ;
+    color:white ;
+    transition: 0.5s ease-in-out all ; 
+    
+    
+}
+.team .con-info li:hover
+{
+    background-color: #f7ba4d ;
+}
+/**************************pricing**************************/
+.pricing
+{
+    min-height: 600px ; 
+    margin-bottom: 50px ; 
+    padding-bottom: 50px ;
+    padding-top: 30px ;
+}
+
+.pricing h5 
+{
+    color:#363636 ; 
+    font-size: 46px ;
+    margin-bottom: 25px ;
+}
+.pricing h5 span 
+{
+    color:#f7ba4d ;
+}
+.pricing h6 
+{
+    font-size: 18px ;
+    text-indent: 75px ;
+    opacity: 0.8 ;
+    margin-bottom: 60px ;
+}
+.pricing .con 
+{
+    min-height: 600px ;
+    background-color:#f7ba4d ;
+    padding-bottom: 50px ;
+    margin-bottom: 50px ;
+}
+
+.pricing .con .ti 
+{
+    background: #363636 none repeat scroll 0 0;
+    color: #fff;
+    min-height: 110px;
+    padding: 20px 0;
+    position: relative;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    top:70px ;
+}
+.pricing .con .title 
+{
+    background: #363636 none repeat scroll 0 0;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #f7ba4d;
+    height: 150px;
+    left: 50%;
+    margin-left: -75px;
+    padding-top: 49px;
+    position: absolute;
+    top: -23px;
+    width: 150px;
+    margin-bottom: 50px ;
+}
+
+.pricing .con .title h3 
+{
+    color:white ;
+    position: relative ; 
+    top:-20px ;
+    
+    
+}
+.pricing .con .title h4 
+{
+    color:white ;
+    position: relative ; 
+    top:-20px ;
+    font-size: 30px ;
+    
+    
+}
+.pricing .other
+{
+    margin-top:120px ;
+}
+.pricing .other p 
+{
+    font-size: 20px ;
+}
+.pricing .other .btn1 
+{
+    margin-top: 50px ; 
+    padding-top: 15px ; 
+    padding: 15px ; 
+    padding-left: 20px ; 
+    padding-right: 20px ; 
+    border-radius: 30px ;
+    color:white ;
+    background-color:#333 ;
+}
